@@ -1,0 +1,6 @@
+Git -> version control system which track our file in which we can change or modify something to know what changes in doing and easy to findout .
+configuration command -> git config -- global user.name " " // -- global (for all)
+git config --list
+path set-> cd dekstop/   or go to folder right click git bash
+three stage archi -> changes working dirct , git add (for all) staging dirct, git commit version 
+                                                     git add . 
