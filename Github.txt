@@ -1,0 +1,127 @@
+git remote add
+
+Files
+  ↓
+git add
+  ↓
+Staging Area
+  ↓
+git commit
+  ↓
+Repository (saved version)
+  ↓
+git push
+  ↓
+GitHub
+
+# FIRST TIME UPLOAD
+cd "C:\Users\DELL\Desktop\Java 6-7-26"
+git init
+git add 6_methods/A_1_basic.java
+# or git add .
+git commit -m "Added A_1_basic.java"
+git branch -M main
+git remote add origin <GitHub-Repo-URL>
+git push -u origin main
+
+# UPDATE FILE
+git add 6_methods/A_1_basic.java
+git commit -m "Updated A_1_basic.java"
+git push
+
+# CHECK CHANGES
+git status
+git diff
+git diff --staged
+
+# COMMIT HISTORY
+git log --oneline
+
+# COMMIT CHANGES
+git show <commit-id>
+
+# FILE HISTORY + CHANGES
+git log -p -- 6_methods/A_1_basic.java
+
+# VIEW OLD CODE (NO CHANGE)
+git show <commit-id>:6_methods/A_1_basic.java
+
+# REMOVE UNCOMMITTED CHANGES
+git restore 6_methods/A_1_basic.java
+
+# RESTORE FILE TO OLD COMMIT
+git log --oneline
+git checkout <commit-id> -- 6_methods/A_1_basic.java
+git add 6_methods/A_1_basic.java
+git commit -m "Reverted A_1_basic.java"
+git push
+
+# MOST USED COMMANDS
+git status
+git diff
+git add <file>
+git commit -m "message"
+git push
+git log --oneline
+git show <commit-id>
+
+# MEMORY FORMULA
+New Project:
+git init → git add → git commit → git push
+
+Update Code:
+git add → git commit → git push
+
+Check History:
+git log --oneline → git show <commit-id>
+
+Restore Old Version:
+git log --oneline → git checkout <commit-id> -- <file> → git commit → git push
+
+
+git init → only once per project.
+git add . → all files.
+git add file.java → specific file.
+git show → see changes.
+git restore → discard uncommitted changes.
+git checkout <commit-id> -- file → restore old committed version of a file. 🚀
+Voice chat ended
+Note: git init, git branch -M main, and git remote add origin ... are usually done only once per repository. After that, daily work is mostly:
+
+
+
+
+
+git init //for anthoer main folder 
+git add 6_methods/A_1_basic.java   // add . (for all use) 
+git commit -m "Added First Time"
+git branch -M main
+git remote add origin https://github.com/katiyardivyanshu08-bit/Java-Method.git
+git push -u origin main
+
+// if you change a code 
+
+git add 6_methods/A_1_basic.java
+git commit -m "Updated A_1_basic.java"
+git push -u origin main
+git push
+
+git log --oneline    q (for exit  //  Commit history dekhne ke liye
+git show commit-id    //Kisi commit mein kya change hua tha
+git log -p -- 6_methods/A_1_basic.java  // Sirf ek file ki poori history + changes
+
+git restore 6_methods/A_1_basic.java  //Bas last commit se pehle wali state chahiye
+git show <commit-id>:6_methods/A_1_basic.java //give code Nahi, ye command sirf dekhne ke liye hai, file ko change nahi karti.
+
+//for restore 
+git log --oneline
+git checkout f7723e2 -- 6_methods/A_1_basic.java
+git add 6_methods/A_1_basic.java
+git commit -m "Reverted A_1_basic.java"
+git push
+
+//set url
+git remote -v
+git remote remove origin    //git remote remove origin
+git remote add origin https://github.com/katiyardivyanshu08-bit/Java-Method.git
+git push -u origin main

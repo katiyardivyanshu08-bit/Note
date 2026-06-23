@@ -4,3 +4,10 @@ git config --list
 path set-> cd dekstop/   or go to folder right click git bash
 three stage archi -> changes working dirct , git add (for all) staging dirct, git commit version 
                                                      git add . 
+git commit -m    only     git commit esc :eq      to open editor 
+git log       what you write
+git add -a
+git add -u
+git add -am "version 3" dirct dirct 1st to 3rd step 
+
+
