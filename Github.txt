@@ -84,7 +84,7 @@ git add . → all files.
 git add file.java → specific file.
 git show → see changes.
 git restore → discard uncommitted changes.
-git checkout <commit-id> -- file → restore old committed version of a file. 🚀
+git checkout <commit-id> -- file → restore old committed version of a file. 
 Voice chat ended
 Note: git init, git branch -M main, and git remote add origin ... are usually done only once per repository. After that, daily work is mostly:
 
