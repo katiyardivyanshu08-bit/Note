@@ -1,5 +1,6 @@
 //First Time Repo Setup
 git init
+git status  // gti show (commit status)
 git add file1.java
 git commit -m "Initial commit"
 git branch -M main
