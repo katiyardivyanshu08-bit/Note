@@ -24,6 +24,10 @@ git branch -M main
 git remote add origin <GitHub-Repo-URL>
 git push -u origin main
 
+git add file1.java file2.java file3.java
+git commit -m "message"
+git push
+
 # UPDATE FILE
 git add 6_methods/A_1_basic.java
 git commit -m "Updated A_1_basic.java"
