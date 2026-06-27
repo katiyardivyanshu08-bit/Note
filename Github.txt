@@ -1,3 +1,11 @@
+//for removeing unneccary file like(.class file in java )
+1-> .gitignore   //make a file name 
+2-> *.class      //inside file write this which you want to remove 
+git rm -r --cached .
+git add .
+git commit -m "Ignore class files"
+git push
+
 cd "_path_"      // for path set
 ls               // current path mai kon kon si file h
 
