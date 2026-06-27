@@ -14,6 +14,7 @@ git init
 git status  // gti show (commit status)
 git add file1.java
 git commit -m "Initial commit"
+git commit --amend -m "Correct commit message"  // if you write commit messge wrong
 git branch -M main
 git remote add origin <repo-url>
 git push -u origin main
